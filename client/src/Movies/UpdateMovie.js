@@ -37,7 +37,7 @@ import axios from "axios";
       };
     
        return (
-        <div>
+        <div className="update-movie">
           <h1>Update</h1>
           <form onSubmit={handleSubmit}>
             <input
@@ -62,7 +62,7 @@ import axios from "axios";
               value={movie.metascore}
             />
             {/* Insert subform to edit/add/remove stars */}
-            <button>Update</button>
+            <button className="button">Update</button>
           </form>
         </div>
       );

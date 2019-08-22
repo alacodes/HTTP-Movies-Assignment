@@ -14,6 +14,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-align: center;
 }
 
 .movie-director {
@@ -53,25 +54,35 @@ body {
   width: 75%;
   margin: 1rem auto;
 }
-.save-button {
-  position: absolute;
+.button {
+  text-align: center;
   top: 25px;
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
 }
-.save-button:hover {
+
+.button:hover {
   background-color: green;
   color: white;
 }
 
-.home-button {
-  padding: 5px 10px;
-  background-color: lightskyblue;
-}
 
 .movie-warning {
   color: red;
+  text-align: center;
+}
+
+
+.update-movie {
+  background-color: #fff;
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
   text-align: center;
 }
