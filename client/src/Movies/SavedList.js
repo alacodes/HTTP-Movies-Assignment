@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
+
+
 export default class SavedList extends Component {
-  constructor(props) {
-    super(props);
-  }
+  //  Do I need this?  
+  //constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (
@@ -20,7 +23,7 @@ export default class SavedList extends Component {
             </NavLink>
           );
         })}
-        <div className="home-button">
+        <div className="button">
           <Link to="/">Home</Link>
         </div>
       </div>
